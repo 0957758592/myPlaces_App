@@ -1,9 +1,8 @@
 import React from 'react';
+import Login from '../coponents/Auth/Login'
 
-const Spalsh = () => {
-    return (
-     <div>My Places</div>
-    );
+const Splash = () => {
+    return <Login/>
 }
 
 export default Splash;
